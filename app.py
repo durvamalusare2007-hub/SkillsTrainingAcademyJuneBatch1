@@ -12,7 +12,7 @@ def health():
 
 @app.route("/userDetails")
 def userDetails():
-    return {"name" : "Durva Malusare", "age" : 28, "maritalStatus" : "Unmarried"}
+    return {"name" : "Durva Malusare", "age" : 25, "maritalStatus" : "Unmarried"}
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
